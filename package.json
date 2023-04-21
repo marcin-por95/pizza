@@ -1,7 +1,6 @@
 {
     "name": "fer-07-project",
     "version": "1.0.0",
-    "type": "commonjs",
     "description": "",
     "main": "index.html",
     "scripts": {

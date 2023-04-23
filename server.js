@@ -2,7 +2,7 @@
 
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('dist/db/app.json');
+const router = jsonServer.router('/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/marcinporeba/Desktop/Kodilla/Pizza/node_modules/.bin\n');
 const middlewares = jsonServer.defaults({
   static: 'dist',
   noCors: true
